@@ -9,6 +9,7 @@ set (CMAKE_CXX_STANDARD 23)
 
 set(SOURCES
     src/main.cpp
+    src/blowfish.cpp
 )
 
 add_executable(devtool ${SOURCES})
